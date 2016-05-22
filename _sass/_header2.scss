@@ -1,27 +1,33 @@
 /**
  * Site header
  */
-header {
-    background: mistyrose;
-    height: 100px;
+
+.main-content {
+    display: flex;
 }
 
-.site-nav {
+header {
+    background: mistyrose;
+    height: 100vh;
+    width: 135px;
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    background: #777;
+    padding: 50px 22px;
+
+    a {
+        color: white;
+        text-transform: uppercase;
+    }
+}
+nav {
+    background: lime;
     .menu-icon {
         display: none;
     }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
+    @include media-query($on-laptop) {
         position: absolute;
         top: 9px;
         right: 30px;
@@ -65,4 +71,3 @@ header {
         }
     }
 }
-
