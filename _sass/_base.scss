@@ -8,7 +8,9 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headings-font;
+}
 
 /**
  * Basic styling
@@ -184,7 +186,19 @@ pre {
     }
 }
 
+a.download {
+  background: darken($download, 40%);
+  padding: 3px 5px;
+  border: $download 1px solid;
+  margin: 60px 0;
+  color: $download;
 
+  &:hover {
+    background: $download;
+    text-decoration: none;
+    color: white;
+  }
+}
 
 /**
  * Icons
@@ -201,4 +215,22 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+// Selection colors (easy to forget)
+
+::selection {
+  background: $selection-color;
+}
+::-moz-selection {
+  background: $selection-color;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  -webkit-tap-highlight-color: $selection-color;
 }

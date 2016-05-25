@@ -2,12 +2,11 @@
  * Site header
  */
 header {
-    background: url('/q2/img/header-bg-redish.png');
+    background: url('/img/header-bg-redish.png');
     height: 180px;
 }
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -23,14 +22,14 @@ header {
 
     &,
     &:visited {
-        color: $grey-color-light  ;
+        color: $heading-color;
     }
 }
 h2.site-description {
   display: block;
   text-align: center;
   font-size: 80%;
-  color: beige;
+  color: $heading-color;
 }
 .site-nav {
   display: block;
