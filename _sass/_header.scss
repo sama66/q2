@@ -8,6 +8,9 @@ header {
 .site-header {
     border-top: 5px solid $grey-color-dark;
     min-height: 56px;
+    h1 {
+      margin: 0;
+    }
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -15,10 +18,11 @@ header {
 
 .site-title {
     line-height: 1;
-    letter-spacing: -1px;
-    margin: 20px 0;
+    letter-spacing: 5px;
+    margin: 30px 0 0;
     text-align: center;
     display: block;
+    text-shadow: 0 0 10px #777;
 
     &,
     &:visited {
@@ -30,6 +34,8 @@ h2.site-description {
   text-align: center;
   font-size: 80%;
   color: $heading-color;
+  margin: 0 0 20px;
+  padding: 0;
 }
 .site-nav {
   display: block;

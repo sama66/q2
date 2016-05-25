@@ -5,6 +5,7 @@ date:   2016-04-22 21:20:52
 author: Ashish Sankrityayan
 tags: [teaching, learning, dhrupad]
 categories: articles
+excerpt: A system that lacks discretion and connoisseurship will commodify and destroy our arts.
 ---
 I believe in calling a spade a spade though I have been misquoted a bit in this article and the accompanying interview in the Patrika Gwalior today. I SMSed the main points in my reply to the journalist and did not name any individuals, but said that programs must have diversity within and across genres and present new faces and the best young talents need to be given the stage SOLO – not in groups and contrived duets or jugalbandis that are of little value in establishing an artist’s image and career. The arbitrariness of the system and the behind the scenes insidious mechanisms that inevitably develop in a system that lacks connoisseurship and norms of any kind has denied opportunities to the best young talents of dhrupad for the last 25 years. This is also true of pakhavaj and all other genres. Two students of the Dhrupad Kendra Bhopal and two of the Dhrupad Kendra Gwalior have got national scholarships and national level awards in competitions recently but like the best young talents of the last 20 years in Dhrupad they are constantly denied the stage.
 

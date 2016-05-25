@@ -12,6 +12,7 @@ permalink: /articles/
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <p>{{ post.excerpt | prepend: site.baseurl }}</p>
       </li>
     {% endfor %}
   </ul>
