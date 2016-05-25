@@ -1,0 +1,22 @@
+.article {
+  display: flex;
+  justify-content: space-between;
+}
+.col-left {
+  max-width: 67%;
+}
+.col-right {
+  width: 30%;
+
+  .clearfix {
+  padding-left: $spacing-unit;
+  margin-left: $spacing-unit;
+  border-left: dashed 3px #777;
+  background: beige;
+  }
+  ul {
+    margin: 0;
+    list-style: none;
+  }
+
+}

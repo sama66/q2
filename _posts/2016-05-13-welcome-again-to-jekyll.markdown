@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: articles
 title:  "Welcome to again Jekyll!"
 date:   2016-05-13 21:20:52
 author: Sanjay

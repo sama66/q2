@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: articles
 title:  Why have no young talents emerged in Dhrupad in India for the last 25 years?
 date:   2016-04-22 21:20:52
 author: Ashish Sankrityayan

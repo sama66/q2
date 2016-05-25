@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: articles
 title:  The Fundamental Concepts of Dhrupad
 date:   2016-05-01 21:20:52
 author: Ashish Sankrityayan
