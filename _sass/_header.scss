@@ -2,7 +2,7 @@
  * Site header
  */
 header {
-    background: url('/img/header-bg-redish.png');
+    background: url('{{ "/img/header-bg-redish.png" | prepend: site.baseurl }}');
     height: 180px;
 }
 .site-header {
@@ -23,7 +23,7 @@ header {
 
     &,
     &:visited {
-        color: $grey-color-light;
+        color: $grey-color-light  ;
     }
 }
 h2.site-description {
