@@ -2,7 +2,7 @@
  * Site header
  */
 header {
-    background: url('{{ "/img/header-bg-redish.png" | prepend: site.baseurl }}');
+    background: url('/q2/img/header-bg-redish.png');
     height: 180px;
 }
 .site-header {
