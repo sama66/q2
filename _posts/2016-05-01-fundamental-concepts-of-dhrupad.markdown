@@ -46,6 +46,7 @@ A consequence of the fundamental role of the vedic accents is that phrases of dh
 However, though this also leads to a music that is in some sense more entertaining and exciting, it also fundamentally alters the very concept of rāg, for devoid of the vedic accents, the music cannot adequately explore the concept of samvād and microtones, but must start regarding rāgs as sequences of notes executed in a certain way.
 
 ###References
+
 1. Dhrupad Tradition and Performance in Indian MusicRitwik Sanyal, Richard Widdess, Ashgate Publishing Limited, page161
 2. The Ashtadhyayi of Panini – Rama Nath Sharma, Munshiram Manoharlal Publishers Pvt. Ltd. sutra numbers 1/2/29, 1/2/30, 1/2/31 pages 99,100
 3. Shukla Yajur Veda – Pratishakhya, with commentary by Dr. Virendra Kumar Verma, Choukhamba Sanskrit Pratishthan, Delhi, ch. 1 sutra no. 108, pages 59,60
