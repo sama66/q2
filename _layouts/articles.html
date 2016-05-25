@@ -2,29 +2,29 @@
 layout: default
 ---
 <div class="article">
-  <div class="col-left">
-    <div class="post-header">
-      <h1 class="post-title">{{ page.title }}</h1>
-      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-    </div>
+    <div class="col-left">
+      <div class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      </div>
 
-    <article class="post-content">
+      <article class="post-content">
       {{ content }}
-    </article>
-  </div>
-  <div class="col-right">
-    <div class="clearfix">
-    {% for category in site.categories %}
-  <li><a name="{{ category | first }}">{{ category | first }}</a>
-    <ul>
-    {% for posts in category %}
-      {% for post in posts %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      </article>
+    </div>
+    <div class="col-right">
+      <div class="clearfix">
+        {% for category in site.categories %}
+        <li><a name="{{ category | first }}">{{ category | first }}</a>
+          <ul>
+            {% for posts in category %}
+            {% for post in posts %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            {% endfor %}
+          </ul>
+        </li>
       {% endfor %}
-    {% endfor %}
-    </ul>
-  </li>
-{% endfor %}
-  </div>
-  </div>
+      </div>
+    </div>
 </div>

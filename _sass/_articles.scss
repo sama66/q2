@@ -7,16 +7,21 @@
 }
 .col-right {
   width: 30%;
+  padding-top: 160px;
 
   .clearfix {
   padding-left: $spacing-unit;
   margin-left: $spacing-unit;
   border-left: dashed 3px #777;
-  background: beige;
+  
   }
   ul {
     margin: 0;
     list-style: none;
+
+    ul {
+      list-style: none;
+    }
   }
 
 }
