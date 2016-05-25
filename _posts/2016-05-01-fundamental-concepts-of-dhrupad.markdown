@@ -5,6 +5,10 @@ date:   2016-05-01 21:20:52
 author: Ashish Sankrityayan
 tags: [khyal, dhrupad]
 categories: articles
+img:
+  small:  Dagar-Brothers-small.jpg
+  medium: Dagar-Brothers-medium.jpg
+  large:  Dagar-Brothers-large.jpg
 ---
 Dhrupad and khyāl are the two forms of classical singing that exist today in North India. Dhrupad, the older form, enjoyed wide popularity till the seventeenth or early eighteenth century, after which it gradually declined with the emergence of khyāl, a more entertaining style. The decline of dhrupad accelerated during the last two centuries, with many of its practitioners switching over to the new form, which progressively increased in popularity and attracted greater patronage. Dhrupad however remained the favoured style in a few imperial courts, mainly in Rajasthan and Bihar, where some dhrupad traditions continued till the late 1940’s, when these states were assimilated into the Indian republic. The period after Indian independence till the present times was a difficult one for this art, for it called into question its very survival in a society in which it was not popular, but needed the patronage of a new ruling class of bureaucrats and politicians who unlike its previous aristocratic patrons, had no connection with it at all. There are at present very few practitioners of dhrupad left in India, and as can be expected in such a situation, there is an enormous fragmentation and erosion of knowledge about the art, even among its few remaining practitioners.
 

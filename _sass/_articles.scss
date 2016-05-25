@@ -13,15 +13,16 @@
   padding-left: $spacing-unit;
   margin-left: $spacing-unit;
   border-left: dashed 3px #777;
-  
+
+  }
+  span.sidebar {
+    text-transform: capitalize;
   }
   ul {
     margin: 0;
-    list-style: none;
+    }
 
-    ul {
+    li {
       list-style: none;
     }
-  }
-
 }
