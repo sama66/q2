@@ -61,7 +61,7 @@ header {
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 9px;
+        top: 18px;
         right: 30px;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
@@ -102,4 +102,12 @@ header {
             padding: 5px 10px;
         }
     }
+}
+
+
+@include media-query($on-palm) {
+  .title-wrap {
+    font-size: 70%;
+    width: 100%;
+  }
 }
