@@ -1,0 +1,35 @@
+.front {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 30px;
+
+    p.blurb {
+    font-size: 120%;
+    line-height: 1.7;
+    width: 600px;
+    margin: 0 auto 30px;
+  }
+  figure {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+    .imagebox {
+      width: 800px;
+      display: flex;
+      justify-content: center;
+    }
+
+      img {
+      border: 1px solid #444;
+      width:cover;
+      margin: 0 auto;
+
+      }
+
+      figcaption {
+        margin: 0 auto;
+        font-size: $small-font-size;
+      }
+  }
+}

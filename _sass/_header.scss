@@ -2,12 +2,21 @@
  * Site header
  */
 header {
-    background: url('/img/header-bg-redish.png');
-    height: 180px;
+    background: url('/img/header-bg-thin.png'), url('/q2/img/header-bg-thin.png');
+    background-repeat: no-repeat;
+    background-color: $grey-color-dark;
+    padding: 10px;
+}
+.title-wrap {
+  width: 33%;
 }
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 1px solid $grey-color-dark;
     min-height: 56px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     h1 {
       margin: 0;
     }
@@ -19,23 +28,19 @@ header {
 .site-title {
     line-height: 1;
     letter-spacing: 5px;
-    margin: 30px 0 0;
-    text-align: center;
-    display: block;
-    text-shadow: 0 0 10px #777;
+    margin: 30px 0 5px;
 
     &,
     &:visited {
-        color: $heading-color;
+        color: $title-color;
     }
 }
-h2.site-description {
-  display: block;
-  text-align: center;
-  font-size: 80%;
-  color: $heading-color;
-  margin: 0 0 20px;
+.site-description {
+  font-size: 65%;
+  color: $title-color;
+  text-transform: uppercase;
   padding: 0;
+  font-weight: 400;
 }
 .site-nav {
   display: block;
@@ -45,12 +50,12 @@ h2.site-description {
     }
 
     .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
+        color: $grey-color;
+        line-height: 1;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 20px;
+            margin-left: 10px;
         }
     }
 

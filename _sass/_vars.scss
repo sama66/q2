@@ -4,16 +4,17 @@
 // Our variables
 $base-font-family: 'Carme', sans-serif;
 $headings-font: 'Merriweather', serif;
-$base-font-size:   16px;
+$base-font-size:   17px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.6;
 
 $spacing-unit:     30px;
 
-$heading-color:    #f4cd6f;
+$title-color:      #ddbc95;
+$headline-color:    #6d7993;
 $text-color:       #111;
-$background-color: #f1d7b9;
-$brand-color:      #f34e31;
+$background-color: #ddbc95;
+$brand-color:      red;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
