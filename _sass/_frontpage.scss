@@ -26,12 +26,14 @@
     width: 600px;
     font-size: 1.2em;
     margin: 20px auto;
-
-    @media (max-width: $on-palm) {
+  }
+  @include media-query($on-laptop) {
+    figcaption {
+      padding: 5px 0 0;
+    }
+    p {
       width: auto;
-      margin: 10px;
+      margin: 0 10px;
     }
   }
-
-
 }
