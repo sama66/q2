@@ -13,21 +13,21 @@
     display: block;
     margin: 0 auto;
     text-align: center;
+    width: 100%;
 
     .imagebox {
       width: 800px;
-      display: flex;
-      justify-content: center;
     }
 
       img {
       border: 1px solid #444;
-      width:cover;
+      width:99%;
       margin: 0 auto;
       }
 
       figcaption {
         margin: 0 auto;
+        background: red;
         font-size: $small-font-size;
       }
   }

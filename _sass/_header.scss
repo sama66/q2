@@ -3,9 +3,9 @@
  */
 header {
     background: url('/img/header-bg-thin.png'), url('/q2/img/header-bg-thin.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-color: $grey-color-dark;
-    padding: 10px;
+    padding: 15px 20px 10px;
 }
 .title-wrap {
   width: 33%;
