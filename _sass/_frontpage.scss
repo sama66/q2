@@ -26,6 +26,11 @@
     width: 600px;
     font-size: 1.2em;
     margin: 20px auto;
+
+    @media (max-width: $on-palm) {
+      width: auto;
+      margin: 10px;
+    }
   }
 
 
