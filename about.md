@@ -8,3 +8,5 @@ Ashish Sankrityayan is an exponent of the Dagar Tradition of Dhrupad. He has tra
 
 
 He later trained under several maestros of the Dagar family Ustad Rahim Fahimuddin Dagar, Ustad Zia Fariduddin Dagar and Ustad Hussain Sayeedudddin Dagar for twenty years and was awarded the National Junior Culture Fellowship by the Indian National Academy of Music, Dance and Drama ( the Sangeet Natak Akademi). Ashish has given numerous public performances of Dhrupad and has given lectures and workshops in institutions like the Anton Bruckner University in Linz, The Free University of Berlin, Hochschule für Musik Hanns Eisler Berlin, Hildesheim University, University of Copenhagen. He often performs with European medieval, renaissance and contemporary musicians.
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/0LtDvEG6M-E?rel=0" frameborder="0" allowfullscreen></iframe>
