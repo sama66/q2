@@ -4,6 +4,12 @@
  */
 .page-content {
     padding: $spacing-unit 0 0;
+
+    img {
+      padding-right: 20px;
+      float: left;
+    }
+
 }
 
 .page-heading {
