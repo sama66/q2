@@ -50,8 +50,13 @@ header {
     }
 
     .page-link {
-        color: $grey-color;
+        color: $nav-color;
         line-height: 1;
+
+        &:hover {
+          color: $nav-hover;
+          text-decoration: none;
+        }
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
