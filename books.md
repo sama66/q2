@@ -14,7 +14,7 @@ permalink: /books/
 
 
 
-###Books on Dhrupad
+<h3>Books on Dhrupad</h3>
 
 Search and digitization of rare works requires funds and donations supporting the work are welcome. Raw digital images of pages of copyright expired works available at 0.50 euro cents per page minimum 200 pages. (No Discounts possible). Proceeds will be used to finance the search for and digitization of more rare works on Dhrupad.
 
@@ -62,7 +62,7 @@ Search and digitization of rare works requires funds and donations supporting th
 
 <span class="book">Dhrupad Dhamar</span> by Balasaheb Poochwale - Has Dhrupad compositions from the tradition of Vamanbua Deshpande of Gwalior.
 
-###Modern Recenly Published General Works on Dhrupad
+<h3>Modern Recenly Published General Works on Dhrupad</h3>
 
 <span class="book">Dhruvapada</span> by Indurama Shrivastava - A very scholarly and well referenced book - the PhD thesis of the author. Contains references to some rare recordings of Dhrupad in the Sangeet Natak Academy archives of Dhrupad singers like Bharatji Vyas and T.L. Rana.
 
