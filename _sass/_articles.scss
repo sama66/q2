@@ -4,16 +4,26 @@
 }
 .col-left {
   max-width: 70%;
+
+  img {
+    float: none;
+  }
 }
 .col-right {
   max-width: 30%;
   padding-top: 160px;
+  line-height: 1.1;
+  font-size: $small-font-size;
+
+  img {
+    float: none;
+    margin-bottom: 5px;
+  }
 
   .clearfix {
   padding-left: $spacing-unit;
   margin-left: $spacing-unit;
   border-left: dashed 1px #777;
-
   }
   span.sidebar {
     text-transform: capitalize;
@@ -29,6 +39,9 @@
 @include media-query($on-laptop) {
   .article {
     display: block;
+  }
+  .col-left img {
+    margin-bottom: 5px;
   }
   .col-left, .col-right {
     max-width: 100%;
