@@ -22,10 +22,25 @@
     font-style: italic;
   }
 
-  p {
+  p.blurb {
     width: 600px;
     font-size: 1.2em;
     margin: 20px auto;
+  }
+  .button {
+    background: lighten($background-color, 10%);
+    box-shadow: 0 0 8px #666;
+    padding: 3px 5px;
+    margin: 50px auto;
+    text-align: center;
+    display: block;
+    width: 150px;
+
+    &:hover {
+      text-decoration: none;
+      box-shadow: 0 5px 13px #666;
+      font-weight: bold;
+    }
   }
   @include media-query($on-laptop) {
     figcaption {
