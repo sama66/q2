@@ -3,6 +3,7 @@
 
   figure {
     display: block;
+    margin-bottom: 30px;
   }
 
   .imagebox {
@@ -37,7 +38,9 @@
   p.small-width {
     width: 600px;
     font-size: 1.2em;
-    margin: 0 auto 30px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .button {
     background: lighten($background-color, 10%);
@@ -54,6 +57,12 @@
       font-weight: bold;
     }
   }
+
+  .lighten {
+    background: lighten($background-color, 15%);
+    padding: 30px auto;
+  }
+
   @include media-query($on-laptop) {
     figcaption {
       padding: 5px 0 0;
