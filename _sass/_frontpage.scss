@@ -1,9 +1,9 @@
 .front {
   margin: 0 auto 30px;
-
+}
   figure {
     display: block;
-    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .imagebox {
@@ -30,7 +30,7 @@
 
   figcaption {
     text-align: center;
-    padding: 5px 0 20px;
+    padding: 5px 0;
     font-style: italic;
     font-size: 0.7em;
   }
@@ -39,7 +39,7 @@
     width: 600px;
     font-size: 1.2em;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-bottom: 15px;
   }
   .button {
     background: lighten($background-color, 10%);
@@ -59,7 +59,23 @@
 
   .lighten {
     background: lighten($background-color, 15%);
-    padding-bottom: 30px;
+    padding: 20px 0;
+    display: flex;
+
+    p {
+      font-size: 1em;
+      line-height: normal;
+    }
+  }
+
+  .col-3 {
+    padding: 15px;
+    line-height: normal;
+    font-size: $small-font-size;
+
+    h4 {
+      color: lighten($background-color, 30%);
+    }
   }
 
   @include media-query($on-laptop) {
@@ -73,4 +89,3 @@
       margin: 0 10px;
     }
   }
-}
