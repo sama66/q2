@@ -191,6 +191,8 @@ a.download {
   border: $download 1px solid;
   margin: 60px 0;
   color: $download;
+  font-size: 80%;
+  font-weight: bold;
 
   &:hover {
     background: $download;
