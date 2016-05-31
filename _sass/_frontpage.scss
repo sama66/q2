@@ -31,9 +31,10 @@
     text-align: center;
     padding: 5px 0 20px;
     font-style: italic;
+    font-size: 0.7em;
   }
 
-  p.blurb {
+  p.small-width {
     width: 600px;
     font-size: 1.2em;
     margin: 20px auto;
@@ -57,8 +58,10 @@
     figcaption {
       padding: 5px 0 0;
     }
-    p {
+    p.small-width {
       width: auto;
+      font-size: 1em;
+      line-height: normal;
       margin: 0 10px;
     }
   }
