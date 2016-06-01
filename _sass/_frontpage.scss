@@ -59,19 +59,66 @@
 
   .lighten {
     background: lighten($background-color, 15%);
-    padding: 20px 0;
-    display: flex;
+    // padding: 20px 0;
 
+    // .text-box {
+    //   margin: auto;
+    //   max-width: 1700px;
+    //   display: flex;
+    //   justify-content: space-around;
+    // }
+
+    .text-box {
+      position: relative;
+      min-height: 450px; /* This part sucks */
+      margin: 25px 0;
+      clear: both;
+    }
+    .tab {
+      float: left;
+    }
+    .tab label {
+      background: #eee;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-left: -1px;
+      position: relative;
+      left: 1px;
+}
+    .tab [type=radio] {
+      display: none;
+    }
+    .content {
+      position: absolute;
+      top: 28px;
+      left: 0;
+      background: white;
+      right: 0;
+      bottom: 0;
+      padding: 20px;
+      border: 1px solid #ccc;
+}
+    [type=radio]:checked ~ label {
+      background: white;
+      border-bottom: 1px solid white;
+      z-index: 2;
+}
+    [type=radio]:checked ~ label ~ .content {
+      z-index: 1;
+    }
     p {
       font-size: 1em;
       line-height: normal;
     }
   }
 
+
+
   .col-3 {
     padding: 15px;
     line-height: normal;
     font-size: $small-font-size;
+    max-width: 500px;
 
     h4 {
       color: lighten($background-color, 30%);
@@ -86,6 +133,9 @@
       width: auto;
       font-size: 1em;
       line-height: normal;
-      margin: 0 10px;
+      margin: 0 20px;
+    }
+    .lighten {
+      display: block;
     }
   }
