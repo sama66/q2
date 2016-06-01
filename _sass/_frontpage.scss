@@ -70,8 +70,9 @@
 
     .text-box {
       position: relative;
-      min-height: 450px; /* This part sucks */
-      margin: 25px 0;
+      min-height: 600px; /* This part sucks */
+      width: 600px;
+      margin: 25px auto;
       clear: both;
     }
     .tab {
