@@ -23,6 +23,17 @@ figure {
   }
 }
 .button {
-  margin: 0 auto;
-  background: pink;
+  display: block;
+  margin: 50px auto;
+  width: 100px;
+  text-align: center;
+  padding: 3px 5px;
+  background: darken($background-color, 10%);
+  box-shadow: 0 2px 5px #777;
+
+  &:hover {
+    text-decoration: none;
+    box-shadow: 0 5px 10px #777;
+    color: #000;
+  }
 }
