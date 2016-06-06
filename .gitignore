@@ -24,6 +24,7 @@ $RECYCLE.BIN/
 
 ### Jekyll ###
 _site
+_backup
 .sass-cache/
 .jekyll-metadata
 
