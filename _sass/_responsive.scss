@@ -1,0 +1,34 @@
+@media (max-width: $on-laptop){
+  header {
+    width: 9.5em;
+  }
+  .page-content {
+    margin-left: 9.5em;
+  }
+}
+@media (max-width: $on-palm){
+  header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-top: 2px solid $grey-color-dark;
+
+    h1 {
+      text-align: left;
+    }
+  }
+
+  .title-wrap {
+    width: 70%;
+    margin-bottom: auto;
+  }
+  .site-description {
+    display: none;
+  }
+  .header-email {
+    display: none;
+  }
+  .page-content {
+    margin: 0;
+  }
+}

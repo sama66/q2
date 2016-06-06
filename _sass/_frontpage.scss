@@ -1,4 +1,28 @@
 img.full {
-  width: 100%; 
+  width: 100%;
   background-size: cover;
+}
+.small-width {
+  margin: 20px auto;
+  max-width: 600px;
+  font-size: 110%;
+}
+figure {
+  .single {
+    margin: 0 auto;
+  }
+  .imagebox {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+
+    img {
+      width: 200px;
+    }
+  }
+}
+.button {
+  margin: 0 auto;
+  background: pink;
 }
