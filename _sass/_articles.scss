@@ -36,27 +36,3 @@
       list-style: none;
     }
 }
-@include media-query($on-laptop) {
-  .article {
-    display: block;
-  }
-  .col-left img {
-    margin-bottom: 5px;
-  }
-  .col-left, .col-right {
-    max-width: 100%;
-  }
-  .col-right {
-    padding: 10px;
-    border: 1px #000 solid;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    background: lighten($background-color, 5%);
-
-    .clearfix {
-      padding-left: 0;
-      margin-left: 0;
-      border: 0;
-    }
-  }
-}
