@@ -1,6 +1,23 @@
-img.full {
-  width: 100%;
+.about {
+  background: url(/img/nasiruddin-ziauddin.jpg) #666;
+  height: 100vh;
   background-size: cover;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content:center;
+
+  .splash {
+    padding-top: 400px;
+    padding-left: 200px;
+  }
+
+  h1 {
+    width: 380px;
+    line-height: 1.2;
+    font-size: 115%;
+    background: rgba(221, 188, 149, 0.8);;
+    padding: 15px;
+  }
 }
 .small-width {
   margin: 20px auto;

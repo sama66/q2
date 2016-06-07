@@ -1,4 +1,17 @@
+//LAPTOP
+
 @media (max-width: $on-laptop){
+  .about {
+    height: 50vh;
+
+    h1 {
+      width: 340px;
+      line-height: 1.1;
+      font-size: 95%;
+      background: rgba(221, 188, 149, 0.6);
+      padding: 10px;
+    }
+  }
   header {
     width: 9.5em;
   }
@@ -32,6 +45,9 @@
     }
   }
 }
+
+//PALM-TOP
+
 @media (max-width: $on-palm){
   header {
     width: 100%;
