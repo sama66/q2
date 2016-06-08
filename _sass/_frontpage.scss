@@ -1,21 +1,22 @@
 .about {
-  background: url(/q2/img/nasiruddin-ziauddin.jpg) #666;
-  height: 100vh;
-  background-size: cover;
-  padding-bottom: 100px;
+  background: url(/q2/img/nasiruddin-ziauddin.jpg);
+  background-size:100%;
+  background-repeat: no-repeat;
   display: flex;
   justify-content:center;
+  align-items: flex-end;
 
   .splash {
-    padding-top: 400px;
-    padding-left: 200px;
+    padding-top: 420px;
+    padding-bottom: 50px;
   }
 
   h1 {
     width: 380px;
     line-height: 1.2;
     font-size: 115%;
-    background: rgba(221, 188, 149, 0.8);;
+//    background: rgba(221, 188, 149, 0.8);
+    background: rgba(245, 245, 245, 0.8);
     padding: 15px;
   }
 }
