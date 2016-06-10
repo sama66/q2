@@ -44,6 +44,19 @@
       border: 0;
     }
   }
+  .concerts {
+    padding: calc($spacing-unit)/2;
+
+
+    li {
+      display: inline-block;
+      margin-right: 5px;
+      margin: 5px 5px 5px 0;
+      background: lighten($green, 5%);
+      padding: 0 4px;
+      font-size: 90%;
+    }
+  }
 }
 
 //PALM-TOP

@@ -11,9 +11,8 @@
   li {
     display: inline-block;
     margin-right: 10px;
-    margin: 5px 5px 5px 0;
-    background: lighten($green, 10%);
-    padding: 0 5px;
-    border-radius: 5px;
+    margin: 5px 5px 15px 0;
+    background: lighten($green, 5%);
+    padding: 0 8px;
   }
 }
