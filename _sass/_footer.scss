@@ -1,15 +1,11 @@
 /**
  * Site footer
  */
-.site-footer {
+footer {
     padding: $spacing-unit 0;
-    background: $grey-color-dark;
+    background: lighten($background-color, 5%);
 }
 
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
 
 .contact-list,
 .social-media-list {
@@ -19,30 +15,12 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
+    display: flex;
     @extend %clearfix;
 }
 
 .footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+  padding: 0 $spacing-unit;
 }
 
 @include media-query($on-laptop) {
