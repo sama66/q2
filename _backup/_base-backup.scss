@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $headings-font;
 }
 
+
 /**
  * Basic styling
  */
@@ -58,8 +59,6 @@ figure > img {
 
 figcaption {
     font-size: $small-font-size;
-    text-align: center;
-    font-style: italic;
 }
 
 
@@ -121,6 +120,9 @@ blockquote {
         margin-bottom: 0;
     }
 }
+
+
+
 /**
  * Code formatting
  */
@@ -146,13 +148,19 @@ pre {
         padding-left: 0;
     }
 }
+
+
+
 /**
  * Wrapper
  */
 .wrapper {
-  padding: 0 $spacing-unit;
-  max-width: 1100px;
-
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -162,9 +170,9 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
-.main-column {
-  padding: 10px 0;
-}
+
+
+
 /**
  * Clearfix
  */
@@ -176,6 +184,23 @@ pre {
         clear: both;
     }
 }
+
+a.download {
+  background: darken($download, 40%);
+  padding: 3px 5px;
+  border: $download 1px solid;
+  margin: 60px 0;
+  color: $download;
+  font-size: 80%;
+  font-weight: bold;
+
+  &:hover {
+    background: $download;
+    text-decoration: none;
+    color: white;
+  }
+}
+
 /**
  * Icons
  */

@@ -4,14 +4,12 @@ layout: default
 <div class="article">
     <div class="col-left">
       <div class="post-header">
-        <span class="post-date">{{ page.date | date: "%b %-d, %Y" }}</span>
         <h1 class="post-title">{{ page.title }}</h1>
-        <span class="post-author">{% if page.author %}{{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span>
-
+        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        {% if page.img %}<img src="{{ site.baseurl }}/img/{{ page.img.medium }}">{% endif %}
       </div>
 
       <article class="post-content">
-        {% if page.img %}<img src="{{ site.baseurl }}/img/{{ page.img.medium }}">{% endif %}
       {{ content }}
       </article>
     </div>
@@ -21,8 +19,9 @@ layout: default
         <li>List of <span class="sidebar">{{ category | first }}</span>
           <ul>
             {% for posts in category %}
-            {% for post in posts limit:8 %}
-            <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+            {% for post in posts %}
+            <li>{% if post.img %}<img src="{{ site.baseurl }}/img/{{ post.img.small }}">{% endif %}</br>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
             {% endfor %}
             {% endfor %}
           </ul>

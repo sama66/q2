@@ -2,6 +2,10 @@
   display: flex;
   justify-content: space-between;
 }
+ul.post-list {
+  list-style: none;
+  margin: 0;
+}
 .col-left {
   max-width: 70%;
 
@@ -12,11 +16,6 @@
   padding-top: 160px;
   line-height: 1.1;
   font-size: $small-font-size;
-
-  img {
-    float: none;
-    margin-bottom: 5px;
-  }
 
   .clearfix {
   padding-left: $spacing-unit;
@@ -32,5 +31,36 @@
 
     li {
       list-style: none;
+      margin-bottom: 10px;
     }
+}
+.post-header {
+  margin-bottom: $spacing-unit;
+
+  .post-date {
+    font-size: $small-font-size;
+  }
+  h1.post-title {
+    line-height: 1;
+    margin: 0;
+    letter-spacing: -1px;
+  }
+  .post-author {
+    font-size: $small-font-size;
+  }
+}
+a.download {
+  background: darken($download, 40%);
+  padding: 3px 5px;
+  border: $download 1px solid;
+  margin: 60px 0;
+  color: $download;
+  font-size: 80%;
+  font-weight: bold;
+
+  &:hover {
+    background: $download;
+    text-decoration: none;
+    color: white;
+  }
 }

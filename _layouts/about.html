@@ -5,9 +5,7 @@ layout: default
   <div class="article">
       <div class="col-left">
         <div class="post-header">
-          <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
           <h1 class="post-title">{{ page.title }}</h1>
-          <p class="post-meta">{% if page.author %}{{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
           {% if page.img %}<img src="{{ site.baseurl }}/img/{{ page.img.medium }}">{% endif %}
         </div>
 

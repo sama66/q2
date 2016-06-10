@@ -1,0 +1,127 @@
+/**
+ * Site header
+ */
+header {
+    background: url('/img/header-bg-thin.png'), url('/q2/img/header-bg-thin.png');
+    background-repeat: repeat-x;
+    background-color: #981414;
+    padding: 15px 20px 10px;
+}
+.title-wrap {
+  width: 33%;
+}
+.site-header {
+    border-top: 1px solid $grey-color-dark;
+    min-height: 56px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+      margin: 0;
+    }
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.site-title {
+    line-height: 1;
+    letter-spacing: 5px;
+    margin: 30px 0 5px;
+
+    &,
+    &:visited {
+        color: $title-color;
+    }
+    &:hover {
+      color: lighten($title-color, 10%);
+      text-decoration: none;
+    }
+}
+.site-description {
+  font-size: 60%;
+  color: $title-color;
+  text-transform: uppercase;
+  padding: 0;
+  font-weight: 400;
+}
+.site-nav {
+  display: block;
+  text-align: center;
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        line-height: 1;
+        font-weight: bold;
+        font-family: Trebuchet, sans-serif;
+
+        a {
+          color: $nav-color;
+        }
+
+        &:hover {
+          color: $nav-hover;
+          text-decoration: none;
+        }
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 10px;
+        }
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 18px;
+        right: 30px;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+        }
+    }
+}
+
+
+@include media-query($on-palm) {
+  .title-wrap {
+    font-size: 70%;
+    width: 70%;
+  }
+}
