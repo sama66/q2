@@ -1,5 +1,6 @@
+/*CSS*/
 .about {
-  background: url(/q2/img/nasiruddin-ziauddin.jpg);
+  background: url(" http://sama66.github.io/q2/img/nasiruddin-ziauddin.jpg" );
   background-size:100%;
   background-repeat: no-repeat;
   display: flex;
@@ -7,13 +8,13 @@
   align-items: flex-end;
 
   .splash {
-    padding-top: 420px;
-    padding-bottom: 50px;
+    padding-top: 40%;
+    padding-bottom: 10%;
   }
 
 
   h1 {
-    width: 380px;
+    max-width: 600px;
     line-height: 1.2;
     font-size: 115%;
 //    background: rgba(221, 188, 149, 0.8);
