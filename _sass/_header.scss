@@ -65,8 +65,8 @@ header {
 
       a {
         color: $grey-color;
-        -webkit-transition: letter-spacing 1s; /* Safari */
         -moz-transition: letter-spacing 2s; /*Firefox*/
+        -webkit-transition: letter-spacing 1s; /* Safari */
         transition: letter-spacing 2s;
 
         &:hover {
