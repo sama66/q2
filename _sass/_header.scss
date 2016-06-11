@@ -59,9 +59,20 @@ header {
 
     li {
       font-size: 75%;
-      margin-bottom: 3px;
+      margin-bottom: 4px;
       font-family: Trebuchet, sans-serif;
       font-weight: bold;
+
+      a {
+        color: $grey-color;
+        transition: letter-spacing 1s;
+
+        &:hover {
+          color: #000;
+          text-decoration: none;
+          letter-spacing: 1px;
+        }
+      }
     }
   }
 
