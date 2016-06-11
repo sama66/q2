@@ -1,7 +1,7 @@
 ---
 layout: articles
 title:  The Fundamental Concepts of Dhrupad
-date:   2016-05-02 21:20:52
+date:   2016-05-01 21:20:52
 author: Ashish Sankrityayan
 tags: [khyal, dhrupad]
 categories: articles
