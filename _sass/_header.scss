@@ -65,9 +65,9 @@ header {
 
       a {
         color: lighten($grey-color, 10%);
-        -moz-transition: letter-spacing 1s, color 3s; /*Firefox*/
-        -webkit-transition: letter-spacing 1s, color 3s; /* Safari */
-        transition: letter-spacing 1s, color 3s;
+        -moz-transition: background 1s, color 3s; /*Firefox*/
+        -webkit-transition: background 1s, color 3s; /* Safari */
+        transition: background 1s, color 3s;
         -moz-transition-timing-function: ease-out;
         -webkit-transition-timing-function: ease-out;
         transition-timing-function: ease-out;
@@ -75,7 +75,7 @@ header {
         &:hover {
           color: #000;
           text-decoration: none;
-          letter-spacing: 1px;
+          background: white;
         }
       }
     }
