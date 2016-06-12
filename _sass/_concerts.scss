@@ -1,18 +1,1 @@
-.concerts {
-  background: $green;
-  padding: $spacing-unit;
-  text-align: center;
 
-  ul {
-    margin: 0;
-    list-style: none;
-  }
-
-  li {
-    display: inline-block;
-    margin-right: 10px;
-    margin: 5px 5px 15px 0;
-    background: lighten($green, 5%);
-    padding: 0 8px;
-  }
-}

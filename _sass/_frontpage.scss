@@ -34,9 +34,32 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+.two-box {
+  display: flex;
+}
 .red {
   background: $red;
   padding: $spacing-unit 0;
+  flex: 1;
+}
+.concerts {
+  background: $green;
+  padding: $spacing-unit 10px;
+  text-align: center;
+  flex: 1;
+
+  ul {
+    margin: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 10px;
+    margin: 5px 5px 5px 0;
+    background: lighten($green, 5%);
+    padding: 0 8px;
+  }
 }
 figure {
   .single {
