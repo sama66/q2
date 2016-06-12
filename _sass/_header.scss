@@ -64,10 +64,13 @@ header {
       font-weight: bold;
 
       a {
-        color: $grey-color;
-        -moz-transition: letter-spacing 1s; /*Firefox*/
-        -webkit-transition: letter-spacing 1s; /* Safari */
-        transition: letter-spacing 1s;
+        color: lighten($grey-color, 10%);
+        -moz-transition: letter-spacing 1s, color 3s; /*Firefox*/
+        -webkit-transition: letter-spacing 1s, color 3s; /* Safari */
+        transition: letter-spacing 1s, color 3s;
+        -moz-transition-timing-function: ease-out;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
 
         &:hover {
           color: #000;

@@ -59,15 +59,15 @@ figure {
   width: 200px;
   text-align: center;
   padding: 3px 5px;
-  background: lighten($background-color, 6%);
+  background: darken($background-color, 10%);
   box-shadow: 0 2px 5px #000;
   -webkit-transition: box-shadow 0.5s, color 0.5s;
-  transition: box-shadow 0.5s, color 0.5s;
+  transition: box-shadow 0.5s, color 0.5s, background 0.5s;
   font-weight: bold;
 
   &:hover {
     text-decoration: none;
     box-shadow: 0 5px 10px #000;
-    color: #000;
+    background: lighten($background-color, 10%);
   }
 }
