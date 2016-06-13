@@ -1,20 +1,15 @@
 ---
-layout: default-page
-title: Books
-permalink: /books/
+layout: articles
+title:  Books on Dhrupad
+date:   2016-06-13 21:20:52
+author: Ashish Sankrityayan
+tags: [books, dhrupad, classical, text]
+categories: articles
+img:
+  medium:  nadvinod.jpg
+excerpt: Efforts to notate and publish Dhrupad compositions started in the 19th Century when printing came to India. Dhrupad singers tried to notate and preserve compositions - the fixed repertoire of Dhrupad that encapsulated the musical knowledge and wisdom of many generations of Dhrupadiyas.
 ---
-
 <strong>Efforts to notate and publish Dhrupad compositions started in the 19th Century when printing came to India.</strong> Dhrupad singers tried to notate and preserve compositions - the fixed repertoire of Dhrupad that encapsulated the musical knowledge and wisdom of many generations of Dhrupadiyas. Many of the manuscripts were only partly or never published. Some remained in private hands of descendants zealously guarded from the public and eventually lost or destroyed. With most of the repertoire of compositions of Dhrupad now lost or fragmented and distorted, it is a work of great importance to try to save whatever survives of books and unpublished manuscripts. Dhrupad singers who are traditionally trained and steeped in the knowledge of tradition can then use their training to reconstruct repair and restore compositions that have been distorted or lost and bring them back to life. I have over the last 30 years tried to collect and digitize published and unpublished works with my own resources and hope that a well funded initiative can be launched to carry out this task on a war footing. Below is a partial list of books I managed to digitize.
-
-*Ashish Sankrityayan*
-
-![A page from the Nad Vinod Granth of Pannalal Goswami 1896]({{ site.baseurl }}/img/nadvinod.jpg{{ prepend:site.baseurl }})
-
-*A page from the Nad Vinod Granth of Pannalal Goswami 1896*
-
-
-
-<h3>Books on Dhrupad</h3>
 
 Search and digitization of rare works requires funds and donations supporting the work are welcome. Raw digital images of pages of copyright expired works available at 0.50 euro cents per page minimum 200 pages. (No Discounts possible). Proceeds will be used to finance the search for and digitization of more rare works on Dhrupad.
 
