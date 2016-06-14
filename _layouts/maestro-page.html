@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<h2><a href="/maestros">Maestros</a></h2>
+<div class="maestros-page">
+  <div class="col-one">
+    <div class="post-header">
+      {% if page.img %}<img src="{{ site.baseurl }}/img/medium/{{ page.img.medium }}">{% endif %}
+      <h1 class="post-title">{{ page.title }}</h1>
+
+    </div>
+  </div>
+    <div class="col-two">
+
+
+      <article class="post-content">
+
+      {{ content }}
+      </article>
+    </div>
+    <div class="col-three">
+      <div class="clearfix">
+        <ul>
+        {% for post in site.categories.maestros %}
+            <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+      </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+
+//Maestro Pages
+
+.maestros-page {
+  display: flex;
+}
+.col-one, .col-three {
+  flex: 1;
+}
+.col-two {
+  flex: 2;
+  padding: 0 $spacing-unit;
+}

@@ -10,3 +10,4 @@ github_username:  sama66
 
 # Build settings
 markdown: kramdown
+permalink: none
