@@ -4,10 +4,44 @@
 .maestros-page {
   display: flex;
 }
-.col-one, .col-three {
-  flex: 1;
+.col-one {
+  flex: 2;
 }
 .col-two {
-  flex: 2;
+  flex: 4;
   padding: 0 $spacing-unit;
+}
+.col-three {
+  flex: 1;
+  font-size: 90%;
+  line-height: 1.1;
+
+  li {
+    margin-bottom: 5px;
+  }
+}
+
+//Maestros
+
+.maestros {
+  max-width: 1000px;
+}
+ul.maestro-list {
+  li {
+    display: inline-block;
+    width: 8em;
+    float: left;
+    margin-right: $spacing-unit;
+    line-height: 1;
+    opacity: 0.6;
+    transition: opacity 2s;
+
+    a {
+      font-size: 90%;
+    }
+    &:hover {
+      opacity: 1;
+      text-decoration: none;
+    }
+  }
 }

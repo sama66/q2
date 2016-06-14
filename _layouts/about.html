@@ -16,7 +16,7 @@ layout: default
       <div class="col-right">
         <div class="clearfix">
           {% for category in site.categories %}
-          <li>List of <span class="sidebar">{{ category | first }}</span>
+          <li><span class="sidebar">{{ category | first }}</span>
             <ul>
               {% for posts in category %}
               {% for post in posts %}
