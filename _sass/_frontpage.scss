@@ -41,9 +41,10 @@
   background: $red;
   padding: $spacing-unit 0;
   flex: 1;
+  color: $grey-color-light;
 }
 .concerts {
-  background: $green;
+  background: $maroon;
   padding: $spacing-unit 10px;
   text-align: center;
   flex: 1;
@@ -57,8 +58,9 @@
     display: inline-block;
     margin-right: 10px;
     margin: 5px 5px 5px 0;
-    background: lighten($green, 5%);
+    background: lighten($maroon, 5%);
     padding: 0 8px;
+    color: $grey-color-light;
   }
 }
 figure {

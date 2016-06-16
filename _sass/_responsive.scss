@@ -44,15 +44,16 @@
       border: 0;
     }
   }
+  .two-box {
+    display: block;
+  }
   .concerts {
-    padding: calc($spacing-unit)/2;
+    padding: calc($spacing-unit)/3;
 
 
     li {
-      display: inline-block;
-      margin-right: 5px;
-      margin: 5px 5px 5px 0;
-      background: lighten($green, 5%);
+      margin-right: 2px;
+      margin: 2px 2px 2px 0;
       padding: 0 4px;
       font-size: 90%;
     }
