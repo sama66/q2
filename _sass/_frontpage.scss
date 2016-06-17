@@ -28,11 +28,26 @@
   }
 }
 .small-width {
-  margin: 20px auto;
+  margin: 0 auto $spacing-unit;
   max-width: 600px;
   font-size: 110%;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: $spacing-unit;
+
+  p {
+    padding-bottom: $spacing-unit;
+  }
+
+  .author {
+    font-size: 90%;
+    margin-bottom: 10px;
+    color: $grey-color;
+  }
+
+  h1 {
+    font-size: 1.4em;
+    line-height: 1.1;
+    word-spacing: -1px;
+  }
 }
 .two-box {
   display: flex;
@@ -44,18 +59,17 @@
 }
 .red {
   background: $red;
-  padding: 0 30px;
+  padding: $spacing-unit;
   flex: 1;
 }
 .concerts {
   background: $maroon;
-  padding: $spacing-unit 10px;
+  padding: $spacing-unit;
   text-align: center;
   flex: 1;
 
   ul {
     margin: 0;
-    list-style: none;
   }
 
   li {
