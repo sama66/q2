@@ -36,12 +36,16 @@
 }
 .two-box {
   display: flex;
+
+  p, li {
+    font-size: 90%;
+    color: $grey-color-light;
+  }
 }
 .red {
   background: $red;
-  padding: $spacing-unit 0;
+  padding: 0 30px;
   flex: 1;
-  color: $grey-color-light;
 }
 .concerts {
   background: $maroon;
@@ -60,7 +64,6 @@
     margin: 5px 5px 5px 0;
     background: lighten($maroon, 5%);
     padding: 0 8px;
-    color: $grey-color-light;
   }
 }
 figure {
