@@ -7,12 +7,12 @@ ul.post-list {
   margin: 0;
 }
 .col-left {
-  max-width: 70%;
+  flex: 1 70%;
 
   img {}
 }
 .col-right {
-  max-width: 30%;
+  flex:1 1 30%;
   padding-top: 160px;
   line-height: 1.1;
   font-size: $small-font-size;
