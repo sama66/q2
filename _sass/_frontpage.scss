@@ -3,38 +3,38 @@
   background: url(" http://sama66.github.io/q2/img/nasiruddin-ziauddin.jpg" );
   background-size:100%;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content:center;
-  align-items: flex-end;
+  display: block;
+  margin-bottom: $spacing-unit;
 
   .splash {
     padding-top: 40%;
     padding-bottom: 10%;
   }
-  @-moz-document domain(sama66.github.io){
-    .splash {
-    padding-top: 400px;
-    padding-bottom: 100px;
-  }
-  }
+  // @-moz-document domain(sama66.github.io){
+  //   .splash {
+  //   padding-top: 400px;
+  //   padding-bottom: 100px;
+  // }
+  // }
 
   h1 {
     max-width: 600px;
     line-height: 1.2;
     font-size: 115%;
-//    background: rgba(221, 188, 149, 0.8);
     background: rgba(245, 245, 245, 0.8);
     padding: 15px;
+    text-align: center;
+    margin: 0 auto;
   }
 }
 .small-width {
-  margin: 0 auto $spacing-unit;
+  margin: 0 auto;
   max-width: 600px;
   font-size: 110%;
-  padding: $spacing-unit;
+  margin-bottom: $spacing-unit*2;
 
   p {
-    padding-bottom: $spacing-unit;
+    padding-bottom: 10px;
   }
 
   .author {
@@ -51,6 +51,7 @@
 }
 .two-box {
   display: flex;
+  margin-bottom: $spacing-unit*2;
 
   p, li {
     font-size: 90%;
@@ -80,12 +81,16 @@
     padding: 0 8px;
   }
 }
-figure {
+.fig {
+  padding: 0 0 $spacing-unit;
+
   .single {
+    max-width: 380px;
     margin: 0 auto;
   }
   .imagebox {
     margin: 0 auto;
+    margin-bottom: $spacing-unit*2;
     display: flex;
     justify-content: space-around;
     max-width: 800px;
@@ -97,7 +102,7 @@ figure {
 }
 .button {
   display: block;
-  margin: 50px auto;
+  margin: 40px auto 60px;
   width: 200px;
   text-align: center;
   padding: 3px 5px;
