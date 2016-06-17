@@ -70,12 +70,9 @@ header {
 
       a {
         color: lighten($grey-color, 10%);
-        -moz-transition: color 2s; /*Firefox*/
-        -webkit-transition: color 2s; /* Safari */
-        transition: color 2s;
-        -moz-transition-timing-function: ease-out;
-        -webkit-transition-timing-function: ease-out;
-        transition-timing-function: ease-out;
+        -moz-transition: color 1s; /*Firefox*/
+        -webkit-transition: color 1s; /* Safari */
+        transition: color 1s;
 
         &:hover {
           color: #000;
