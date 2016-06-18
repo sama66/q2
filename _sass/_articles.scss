@@ -44,6 +44,7 @@ ul.post-list {
     line-height: 1;
     margin: 0;
     letter-spacing: -1px;
+    color: darken($background-color, 30%);
   }
   .post-author {
     font-size: $small-font-size;
