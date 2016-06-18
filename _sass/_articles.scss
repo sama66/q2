@@ -64,3 +64,11 @@ a.download {
     color: white;
   }
 }
+.odd-image {
+  float: left;
+  margin-right: $spacing-unit;
+}
+.even-image {
+  float: right;
+  margin-left: $spacing-unit;
+}
