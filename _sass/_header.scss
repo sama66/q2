@@ -107,7 +107,7 @@ header {
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 18px;
+        top: 8px;
         right: 30px;
         background-color: $background-color;
         border: 1px solid $grey-color-light;

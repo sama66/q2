@@ -18,6 +18,13 @@
   .page-content {
     margin-left: 9.5em;
   }
+  .imagebox {
+    flex-wrap: wrap;
+
+    img {
+      width: 100%;
+    }
+  }
   iframe {
     width: 450px;
     height: 263px;
@@ -37,6 +44,7 @@
     border-radius: 5px;
     margin-bottom: 10px;
     background: lighten($background-color, 5%);
+    font-size: 100%;
 
     .clearfix {
       padding-left: 0;
@@ -65,13 +73,48 @@
 @media (max-width: $on-palm){
   header {
     width: 100%;
-    height: auto;
-    position: relative;
+    height: 50px;
+    position: fixed;
     border-top: 2px solid $grey-color-dark;
+    background: rgba(245, 245, 245, 0.86);
 
     h1 {
       text-align: left;
+      font-size: 1.6em;
+
+      .site-title {
+
+        &,
+        &:visited {
+            color: lighten($title-color, 10%);
+
+            &:hover {
+              color: darken($title-color, 40%);
+            }
+        }
+      }
     }
+  }
+  .about {
+    height: auto;
+    margin-bottom: 0;
+
+    .splash {
+    padding-top: 50%;
+    padding-bottom: 0;
+
+    h1 {
+      font-size: 80%;
+      width: auto;
+    }
+  }
+}
+  .small-width p {
+    padding: 0 10px 10px;
+  }
+
+  .page-content {
+    padding-top: 50px;
   }
 
   .title-wrap {
@@ -86,5 +129,9 @@
   }
   .page-content {
     margin: 0;
+  }
+  .odd-image, .even-image {
+    float: none;
+    margin: auto;
   }
 }

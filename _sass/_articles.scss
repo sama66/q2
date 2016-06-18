@@ -7,18 +7,18 @@ ul.post-list {
   margin: 0;
 }
 .col-left {
-  flex: 1 70%;
+  flex: 1 75%;
 
   img {}
 }
 .col-right {
-  flex:1 1 30%;
+  flex:1 1 18%;
   padding-top: 160px;
   line-height: 1.1;
-  font-size: $small-font-size;
+  font-size: 70%;
 
   .clearfix {
-  padding-left: $spacing-unit;
+  padding-left: $spacing-unit/3;
   margin-left: $spacing-unit;
   border-left: dashed 1px #777;
   }
