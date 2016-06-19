@@ -163,6 +163,7 @@
 
       a {
         font-size: 90%;
+        font-weight: bold;
       }
     }
   }
@@ -171,22 +172,25 @@
   //Maestro Pages
 
   .maestros-page {
-    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    img {
+      width: 100%;
+    }
   }
   .col-one {
-    flex: 2;
+    flex: none;;
   }
   .col-two {
-    flex: 4;
-    padding: 0 $spacing-unit;
+    flex: none;
+    padding: inherit;
   }
   .col-three {
-    flex: 1;
-    font-size: 90%;
-    line-height: 1.1;
-
-    li {
-      margin-bottom: 5px;
-    }
+    flex: none;
+    font-size: 120%;
+  }
+  .post-header h1.post-title {
+    margin: 10px 0 -10px;
   }
 }

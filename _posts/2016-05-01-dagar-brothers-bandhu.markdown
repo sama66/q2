@@ -7,7 +7,6 @@ img:
   small: dagar-brothers-small.jpg
   medium: dagar-brothers-medium.jpg
 ---
-
 Grandsons of Zakiruddin Khan and Allabande Khan - The Dagar Brothers - from left to right - Ustad Zia Fariduddin Dagar (b1933), Ustad Nasir Zahiruddin Dagar(1932-1994), Ustad Rahim Fahimuddin Dagar(b 1927), Ustad Nasir Aminuddin Dagar (1923-2000), Ustad Zia Mohiuddin Dagar (1929-1990), Ustad Nasir Faiyazuddin Dagar (1934-1989), Ustad Hussain Sayeeduddin Dagar(b1939).
 
 The eldest brother of this generation Ustad Nasir Moinuddin Dagar died in 1966 in the prime of his career. This picture was taken in the early 1980s in Calcutta.
