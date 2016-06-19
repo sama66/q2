@@ -134,4 +134,57 @@
     float: none;
     margin: auto;
   }
+  ul.post-list {
+    margin: 0;
+    font-size: $small-font-size;
+    h2 {
+      margin: 0;
+      font-size: 120%;
+    }
+  }
+
+  ul.maestro-list {
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      display: inline-block;
+      width: 6em;
+      margin-right: $spacing-unit/3;
+      margin-bottom: $spacing-unit/2;
+      line-height: 1;
+      font-size: $small-font-size;
+      flex-grow: 1;
+
+      img {
+        opacity: 1;
+      }
+
+      a {
+        font-size: 90%;
+      }
+    }
+  }
+
+
+  //Maestro Pages
+
+  .maestros-page {
+    display: flex;
+  }
+  .col-one {
+    flex: 2;
+  }
+  .col-two {
+    flex: 4;
+    padding: 0 $spacing-unit;
+  }
+  .col-three {
+    flex: 1;
+    font-size: 90%;
+    line-height: 1.1;
+
+    li {
+      margin-bottom: 5px;
+    }
+  }
 }
