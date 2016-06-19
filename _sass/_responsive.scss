@@ -151,8 +151,8 @@
     margin: 0;
 
     li {
-      display: inline-block;
-      margin: 0 3px 10px 0;
+      flex-grow: 1;
+      margin: 0 3px 35px 0;
       line-height: 1;
       font-size: $small-font-size;
       max-width: 11em;
