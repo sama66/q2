@@ -140,20 +140,22 @@
     h2 {
       margin: 0;
       font-size: 120%;
+      line-height: 1.1;
+      word-wrap: -1;
     }
   }
 
   ul.maestro-list {
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
+
     li {
       display: inline-block;
-      width: 6em;
-      margin-right: $spacing-unit/3;
-      margin-bottom: $spacing-unit/2;
+      margin: 0 3px 10px 0;
       line-height: 1;
       font-size: $small-font-size;
-      flex-grow: 1;
+      max-width: 11em;
 
       img {
         opacity: 1;
