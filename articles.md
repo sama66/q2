@@ -8,8 +8,8 @@ permalink: /articles/
   {% for post in site.categories.articles %}
       <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
+      <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+      <p class="excerpt">{{ post.excerpt }}</p>
       </li>
   {% endfor %}
   </ul>
