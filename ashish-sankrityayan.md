@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: about-ashish
 title: Ashish Sankrityayan
 permalink: /ashish-sankrityayan/
 ---

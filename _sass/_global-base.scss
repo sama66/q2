@@ -1,6 +1,6 @@
-/**
- * Reset basic elements
- */
+
+// Reset basic elements
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -12,9 +12,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $headings-font;
 }
 
-/**
- * Body styling
- */
+// Body styling
+
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
@@ -27,9 +26,8 @@ body {
 
 
 
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
+// Set `margin-bottom` to maintain vertical rhythm
+
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
@@ -38,10 +36,8 @@ ul, ol, dl, figure,
 }
 
 
+// Images
 
-/**
- * Images
- */
 img {
     max-width: 100%;
     vertical-align: middle;
@@ -49,9 +45,8 @@ img {
 
 
 
-/**
- * Figures
- */
+// Figures
+
 figure > img {
     display: block;
 }
@@ -64,37 +59,14 @@ figcaption {
 
 
 
-/**
- * Lists
- */
-ul, ol {
-    margin-left: $spacing-unit;
-}
+// Lists
 
-li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
-}
 ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
+//Links
 
-
-/**
- * Headings
- */
-
-
-
-
-/**
- * Links
- */
 a {
     color: $brand-color;
     text-decoration: none;
@@ -106,10 +78,8 @@ a {
 }
 
 
+// Blockquotes
 
-/**
- * Blockquotes
- */
 blockquote {
     color: lighten($background-color, 30%);
     background: darken($background-color, 10%);
@@ -122,9 +92,9 @@ blockquote {
         margin-bottom: 0;
     }
 }
-/**
- * Code formatting
- */
+
+// Code formatting
+
 pre,
 code {
     font-size: 15px;
@@ -147,28 +117,22 @@ pre {
         padding-left: 0;
     }
 }
-/**
- * Wrapper
- */
+
+// Wrapper
+
 .wrapper {
   padding: 0 $spacing-unit;
-  max-width: 1100px;
+  max-width: $content-width;
 
     @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
 }
 .main-column {
-  padding: 10px 0;
+//  padding: 10px 0;
 }
-/**
- * Clearfix
- */
+
+
+// Clearfix
+
 %clearfix {
 
     &:after {
@@ -177,9 +141,9 @@ pre {
         clear: both;
     }
 }
-/**
- * Icons
- */
+
+// Icons
+
 .icon {
 
     > svg {

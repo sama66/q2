@@ -1,7 +1,22 @@
+.page-header {
+  background: linear-gradient(lighten($background-color, 7%), $background-color);
+  text-transform: capitalize;
+  padding: 16px 0;
+  line-height: 1;
+  font-size: $small-font-size;
+  color: darken($background-color, 0);
+  margin: 0 0 $spacing-unit*2;
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    color: darken($background-color, 5%);
+    font-size: 1.8em;
+  }
+}
 .page-content {
   margin-left: 13em;
 }
-
 
 .post-meta {
     font-size: $small-font-size;

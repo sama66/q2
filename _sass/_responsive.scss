@@ -1,6 +1,12 @@
 //LAPTOP
 
 @media (max-width: $on-laptop){
+  .wrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width: calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+  }
   .about {
     height: 50vh;
 
@@ -8,7 +14,7 @@
       width: 340px;
       line-height: 1.1;
       font-size: 95%;
-      background: rgba(221, 188, 149, 0.6);
+      background: rgba(245, 245, 245, 0.8);
       padding: 10px;
     }
   }
@@ -36,18 +42,16 @@
     margin-bottom: 5px;
   }
   .col-left, .col-right {
-    max-width: 100%;
+    width: 100%;
+    float: none;
+
   }
   .col-right {
-    padding: 10px;
-    border: 1px #000 solid;
-    border-radius: 5px;
-    margin-bottom: 10px;
     background: lighten($background-color, 5%);
-    font-size: 100%;
+    font-size: $base-font-size;
 
     .clearfix {
-      padding-left: 0;
+      padding: 10px;
       margin-left: 0;
       border: 0;
     }

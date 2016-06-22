@@ -3,21 +3,19 @@ layout: articles
 title:  The Search for Published and Unpublished Works on Dhrupad
 date:   2015-01-24 21:20:52
 author: Ashish Sankrityayan
-tags: [published, unpublished, folklore, mythology, ]
+tags: [ published, unpublished, folklore, mythology ]
 categories: articles
 img:
   medium:  Sangeet-Samuccaya-1924-medium.jpg
+  medium2: rag-prakash-medium.jpg
+  medium3: bhavsinhji.jpg
 excerpt: Before the age of mass printing,  singers had attempted to notate and keep their repertoire of compositions from being forgotten or distorted.
 ---
 In a dhrupad performance the exposition of the Raga through the abstract syllabic alap is followed by the singing of a composed melody with lyrics, set to a tala or a cycle of beats accompanied by a barrel drum – the pakhāwaj. Strictly speaking it is the composed melody, which usually has four parts, that bears the name dhrupad, although the term is now used to identify the entire genre including the alap. A Dhrupad Composition actually embodies within it all the principles of the music, and serves as a model of the exposition of the raga, composed by a master dhrupad singer not only for his own performance, but as a musical statement for subsequent oral transmission to succeeding generations. Compositions represent the fixed repertoire of Dhrupad and encapsulate the musical knowledge and wisdom of many generations of Dhrupad singers.  Compositions were often created to illustrate specific aspects of the grammar of music. The lyrics of compositions contain a wealth of information about history, folklore, mythology, philosophy and the conceptual  framework of music. In an oral tradition compositions of course mutate with time and one finds many different versions of the same composition prevalent in different traditions in different parts of the country.
 
-![Rag Prakash of Madhav Singh]({{ site.baseurl }}/img/medium/rag-prakash-medium.jpg){: .even-image }
-
 Efforts to notate and publish books of Dhrupad compositions started in the 19th Century when mechanized printing came to India. Before the age of mass printing,  singers had attempted to notate and keep their repertoire of compositions from being forgotten or distorted. However such works were mostly kept for personal reference and use, and access to them if at all permitted to others, was restricted to the closest disciples or relatives of the author. The compilation **Sangeet Samuccaya** done by Beenkar Shivendranath Basu in 1924 mentions that Dulahsen or Budhprakash – a descendant of Tansen wrote a work notating compositions of his tradition which remained with his descendants. Many such works remained in private hands  zealously guarded from the public and eventually it may be presumed that many such works were lost or destroyed. I personally know of a handwritten manuscript of  Radheshyamji Sharma, son of Sitaramji Sharma- the pre-independence court musician of Tikamgarh, with notations of about 400 compositions of Dhrupad, which I briefly saw some years ago in the zealously guarded possession of a relative, which is now completely untraceable.
 
 Most works were published with the support of wealthy patrons like Maharajas and Zamindars – like the **Sangit Kaladhar** of 1901 published by the Maharaja of Bhavnagar written by his court musician Dahyalal Shivram.
-
-[![His Highness The Maharaja Saheb Shri Bhavsinhji]({{ site.baseurl }}/img/medium/bhavsinhji.jpg){: .odd-image }]({{ site.baseurl }}/img/bhavsinhji-large.jpg){: #loginscreen}
 
 Many works were only partly published or could never be published at all because of a lack of funds.  Like the **Sangeet Sudha Sagar** of Prankrishna Chattopadhyaya with compositions in uncommon Ragas, of which only a fraction of the first volume was printed by the author at his own expense in the 1950’s. The author  a student of Tansen descendant Nihal Sen of Jaipur and of Dagar tradition singer Abban Khan of  Pratapgarh, mentions in the preface that he has applied for State funding and hopes to publish the entire work with 240 compositions of the tradition of Tansen in the first volume. Since the author’s teacher Nihalsen was a descendant of Dulahsen it is quite probable that his work contained many of the compositions notated by Dulahsen in his manuscript.
 

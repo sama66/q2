@@ -1,21 +1,29 @@
 .article {
-  display: flex;
-  justify-content: space-between;
+//  display: flex;
+//  justify-content: space-between;
+}
+
+span.sidebar-image img {
+  margin-top: 900px;
 }
 
 .col-left {
-  flex: 1 75%;
+  width: 70%;
+  display: block;
+  float: left;
 }
 .col-right {
-  flex:1 1 18%;
-  padding-top: 160px;
+  width:28%;
+  float: right;
   line-height: 1.1;
-  font-size: 70%;
+  font-size: $small-font-size;
+  display: block;
 
   .clearfix {
   padding-left: $spacing-unit/3;
   margin-left: $spacing-unit;
   border-left: dashed 1px #777;
+
   }
   span.sidebar {
     text-transform: capitalize;
@@ -25,7 +33,7 @@
 
     li {
       list-style: none;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
     }
 }
 .post-header {
