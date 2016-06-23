@@ -51,18 +51,15 @@
   display: flex;
   margin-bottom: $spacing-unit*2;
 
-  p, li {
-    font-size: 90%;
-    color: $grey-color-light;
-  }
 }
 .red {
-  background: $red;
+  background: $green;
   padding: $spacing-unit;
   flex: 1;
+  color: white;
 }
 .concerts {
-  background: $maroon;
+  background: darken($green, 10%);
   padding: $spacing-unit;
   text-align: center;
   flex: 1;
@@ -75,8 +72,9 @@
     display: inline-block;
     margin-right: 10px;
     margin: 5px 5px 5px 0;
-    background: lighten($maroon, 5%);
+    background: darken($green, 15%);
     padding: 0 8px;
+    color: $grey-color-light;
   }
 }
 .fig {
