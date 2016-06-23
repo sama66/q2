@@ -7,7 +7,7 @@ layout: default
   <span class="post-author">{% if page.author %}{{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span>
 </div>
 
-  <div class"image-holder">{% if page.img %}<img src="{{ site.baseurl }}/img/medium/{{ page.img.medium }}">{% endif %}</div>
+  {% if page.img %}<div class"image-holder"><img src="{{ site.baseurl }}/img/medium/{{ page.img.medium }}"></div>{% endif %}
   <div class="three-col">
     <div class="col-1">
       {% if page.img.medium2 %}<img src="{{ site.baseurl }}/img/medium/{{ page.img.medium2 }}">{% endif %}

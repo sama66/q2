@@ -18,12 +18,7 @@
       padding: 10px;
     }
   }
-  header {
-    width: 9.5em;
-  }
-  .page-content {
-    margin-left: 9.5em;
-  }
+
   .imagebox {
     flex-wrap: wrap;
 
@@ -69,6 +64,32 @@
       padding: 0 4px;
       font-size: 90%;
     }
+  }
+  //Maestro Pages
+
+  .maestros-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+
+    img {
+      width: 100%;
+    }
+  }
+  .col-one {
+    width: 20%;
+  }
+  .col-two {
+    width: 70%;
+  }
+  .col-three {
+    flex: none;
+    font-size: 120%;
+    width: 100%;
+  }
+  .post-header h1.post-title {
+    margin: 10px 0;
   }
 }
 
@@ -184,11 +205,13 @@
     }
   }
   .col-one {
-    flex: none;;
+    flex: none;
+    width: 100%
   }
   .col-two {
     flex: none;
-    padding: inherit;
+    width: 100%;
+    padding: 0;
   }
   .col-three {
     flex: none;
