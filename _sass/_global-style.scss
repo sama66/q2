@@ -13,7 +13,7 @@
   line-height: 1;
   font-size: $small-font-size;
   color: darken($background-color, 0);
-  margin: 0 0 $spacing-unit*2;
+  margin: 0 0 $spacing-unit;
 
   h1 {
     margin: 0;
@@ -32,7 +32,38 @@
     display: block;
     font-size: 24px;
 }
+.image-holder {
+  background: crimson;
 
+  img {
+    border: 2px solid black;
+  }
+}
+.three-col {
+  display: flex;
+  justify-content: space-between;
+
+  .col-1 {
+    width: 22%;
+
+    img {
+      margin-top: 550px;
+    }
+  }
+  .col-2 {
+    width: 55%;
+  }
+  .col-3 {
+    width: 20%;
+    line-height: 1.33;
+    font-size: $small-font-size;
+
+    ul {
+      text-transform: capitalize;
+      list-style: none;
+    }
+  }
+}
 
 .book {
   background: #647254;
