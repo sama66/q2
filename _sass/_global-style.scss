@@ -1,3 +1,7 @@
+.page-content {
+  margin-left: 9em;
+}
+
 .page-header {
   background: lighten($background-color, 5%); /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left top, lighten($background-color, 5%), $background-color); /* For Safari 5.1 to 6.0 */
@@ -17,9 +21,6 @@
     color: darken($background-color, 5%);
     font-size: 1.8em;
   }
-}
-.page-content {
-  margin-left: 13em;
 }
 
 .post-meta {
