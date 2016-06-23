@@ -2,17 +2,13 @@
 .events {
   background: $yellow;
 }
-.about {
-  background: url(" http://sama66.github.io/q2/img/nasiruddin-ziauddin.jpg" );
+.cover-photo {
+  background: url(" /img/nasiruddin-ziauddin-detail.jpg" );
   background-size:100%;
   background-repeat: no-repeat;
-  display: block;
   margin-bottom: $spacing-unit;
 
-  .splash {
-    padding-top: 40%;
-    padding-bottom: 10%;
-  }
+  .splash {}
 
 
   h1 {
