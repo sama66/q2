@@ -120,10 +120,9 @@ pre {
 
 // Wrapper
 
-.new-page-wrap {
-  margin: 0 auto;
+.wrapper {
+  padding: 0 $spacing-unit;
   max-width: $content-width;
-  background: pink;
 
     @extend %clearfix;
 }
